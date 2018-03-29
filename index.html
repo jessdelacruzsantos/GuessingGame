@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link href="main.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div>
+      <div id='app'class="">
+        <div id='headers'class="center">
+          <h1>Play the Guessing Game!</h1>
+          <h3>Guess a number between 1-100</h3>
+        </div>
+
+        <div id='main'>
+          <div class="input-group" id="input-parent">
+            <input id="player-input" type="text" class="form-control center" placeholder="#" maxlength="3" autofocus="autofocus" aria-describedby="basic-addon1">
+            <div class="input-group-append">
+              <button id="submit" class="btn btn-success" type="button">Go!</button>
+            </div>
+          </div>
+    
+          <div id='guesses'>
+            <ul class="center">
+              <li class ="guess">-</li>
+              <li class ="guess">-</li>
+              <li class ="guess">-</li>
+              <li class ="guess">-</li>
+              <li class ="guess">-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <button class="btn btn-primary btn-sm">Reset</button>
+            <button class="btn btn-info btn-sm">Hint</button>
+        </div>
+      </div>
+
+
+
+    <div id='footer'>
+        <div class='row center container-fluid'>
+          <div class='col-sm-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4 sig'>
+            <h4>Project By Jessie De La Cruz Santos</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+        </div>
+    </div>
+
+  </body>
+</html>
